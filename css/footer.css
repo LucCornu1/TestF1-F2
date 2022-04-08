@@ -1,0 +1,56 @@
+		body{
+			margin: 0px;
+		}
+
+		footer *{
+			color: white;
+		}
+
+		.footdiv{
+			width: 100%;
+			margin: 0 auto;
+			height: 8em;
+			text-align: center;
+			background: rgb(22, 19, 159);
+			display: table; /*Change la disposition en tableau*/
+		}
+
+		.footdiv ul{
+			margin: 0px;
+			padding: 0px;
+			display: flex;
+			list-style-type: none;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.footdiv ul li{
+			margin: 0px;
+			margin-top: 2%;
+			height: 5.5em;
+			padding: 0px;
+			padding-right:15%;
+			padding-left:15%;
+			border-right: 2px solid white;
+			display: table; /*Change la disposition en tableau*/
+		}
+
+		#retour{
+			height: 3em;
+			width: 100%;
+		}
+
+		#retour a{
+			border-top: 2px solid white;
+			width: 80%;
+		}
+
+		a{
+			text-decoration: none;
+			vertical-align:middle; /*Centrage vertical si c'est une cellule de tableau*/
+			display: table-cell; /*Change la disposition en cellule de tableau*/
+		}
+
+		a:hover{
+			text-decoration: underline;
+		}
